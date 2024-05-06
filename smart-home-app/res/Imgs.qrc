@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>Fotos/app_start.jpeg</file>
+        <file>Fotos/lamp_off.png</file>
+        <file>Fotos/GUI1.png</file>
+        <file>Fotos/colsed_window1.png</file>
+        <file>Fotos/lamp_on.png</file>
+        <file>Fotos/alarm_off.png</file>
+        <file>Fotos/alarm_on.png</file>
+        <file>Fotos/opend_window1.png</file>
+        <file>Fotos/Smart_home.jpg</file>
+        <file>Fotos/Smart_home2.png</file>
+        <file>Fotos/background.jpg</file>
+        <file>Fotos/Smart_home2.2.png</file>
+        <file>Fotos/lamp_on11.png</file>
+        <file>Fotos/lamp_on12.png</file>
+        <file>Fotos/lamp_on13.png</file>
+    </qresource>
+</RCC>

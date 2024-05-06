@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>light_control</class>
+ <widget class="QWidget" name="light_control">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="ON_Button">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: 2px solid rgb(83, 255, 10);
+	border-radius: 10px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 21px;
+	background-color: rgb(3, 199, 0);
+}
+QPushButton:hover {
+	border: 2px solid rgb(40, 74, 27);
+	background-color: rgb(56, 120, 48);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(167, 255, 119);
+	background-color:rgb(93, 255, 23) ;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>ON</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OFF_Button">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: 2px solid rgb(221, 3, 3);
+	border-radius: 10px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 21px;
+	background-color: rgb(255, 7, 7);
+}
+QPushButton:hover {
+	border: 2px solid rgb(180, 16, 11);
+	background-color: rgb(161, 0, 0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(255, 21, 0);
+	background-color:rgb(255, 18, 1);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>OFF</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="room_name">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: 2px solid rgb(221, 3, 3);
+	border-radius: 10px;	
+	color:rgb(130, 130, 130);
+	font-family:&quot;Arial&quot;;
+	font-size: 21px;
+	background-color: rgb(255, 7, 7);
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

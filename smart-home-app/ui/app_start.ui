@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>app_start</class>
+ <widget class="QMainWindow" name="app_start">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>861</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Temperature_control">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>510</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 18px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+    border: 2px solid rgb(30, 195, 198);
+	background-color: rgb(36, 177, 190);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(35, 209, 203);
+	background-color:rgb(78, 241, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Temperature Control</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>-270</y>
+      <width>751</width>
+      <height>1151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/res/Fotos/Smart_home2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ffffff;&quot;&gt;Smart Home&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Close">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>590</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 25px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+	border: 2px solid rgb(131, 18, 10);
+	background-color: rgb(241, 52, 45);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(127, 26, 17);
+	background-color: rgb(109, 20, 17);
+}
+
+QPushButton:disabled {	
+	border-radius: 5px;	
+	border: 2px solid rgb(112,112,112);
+	background-color: rgb(112,112,112);
+}</string>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lightcontrol">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>430</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 18px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+    border: 2px solid rgb(30, 195, 198);
+	background-color: rgb(36, 177, 190);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(35, 209, 203);
+	background-color:rgb(78, 241, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Light Control</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Alarm_state">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>510</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 25px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+    border: 2px solid rgb(30, 195, 198);
+	background-color: rgb(36, 177, 190);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(35, 209, 203);
+	background-color:rgb(78, 241, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Alarm State</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Window_control">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>430</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 18px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+    border: 2px solid rgb(30, 195, 198);
+	background-color: rgb(36, 177, 190);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(35, 209, 203);
+	background-color:rgb(78, 241, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Window Control</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Start_simulation">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>310</y>
+      <width>461</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 40px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 18px;
+	background-color: rgb(83, 83, 83);
+}
+QPushButton:hover {
+    border: 2px solid rgb(30, 195, 198);
+	background-color: rgb(36, 177, 190);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(35, 209, 203);
+	background-color:rgb(78, 241, 241);
+}</string>
+    </property>
+    <property name="locale">
+     <locale language="English" country="Germany"/>
+    </property>
+    <property name="text">
+     <string>Start Simulation</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>Temperature_control</zorder>
+   <zorder>label_2</zorder>
+   <zorder>Close</zorder>
+   <zorder>Lightcontrol</zorder>
+   <zorder>Alarm_state</zorder>
+   <zorder>Window_control</zorder>
+   <zorder>Start_simulation</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>963</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

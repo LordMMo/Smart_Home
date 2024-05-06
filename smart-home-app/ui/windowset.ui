@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>windowset</class>
+ <widget class="QWidget" name="windowset">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>435</width>
+    <height>247</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Open_Button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: 2px solid rgb(83, 255, 10);
+	border-radius: 10px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 21px;
+	background-color: rgb(3, 199, 0);
+}
+QPushButton:hover {
+	border: 2px solid rgb(40, 74, 27);
+	background-color: rgb(56, 120, 48);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(167, 255, 119);
+	background-color:rgb(93, 255, 23) ;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Close_Button">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: 2px solid rgb(221, 3, 3);
+	border-radius: 10px;	
+	color:rgb(255,255,255);
+	font-family:&quot;Arial&quot;;
+	font-size: 21px;
+	background-color: rgb(255, 7, 7);
+}
+QPushButton:hover {
+	border: 2px solid rgb(180, 16, 11);
+	background-color: rgb(161, 0, 0);
+}
+QPushButton:pressed {	
+	border: 2px solid rgb(255, 21, 0);
+	background-color:rgb(255, 18, 1);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Close </string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="room_name">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>150</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
